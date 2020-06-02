@@ -1,0 +1,127 @@
+.tools {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.block1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: blue;
+    outline: 2px solid #000;
+    text-align: center;
+    color: white;
+    float: bottom;
+
+}
+
+.block1:hover {
+    background: hotpink;
+}
+
+.block3:hover {
+    background: hotpink;
+}
+
+.block2:hover {
+    background: indigo;
+
+}
+
+.block5:hover {
+    background: indigo;
+
+}
+
+h1:hover {
+    color: white;
+    text-shadow: 1px 1px 2px cyan, 0 0 1em white;
+}
+
+.block2 {
+    position: absolute;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background: yellow;
+    outline: 2px solid #000;
+    text-align: center;
+    color: black;
+    float: top;
+}
+
+.block5 {
+    position: absolute;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background: yellow;
+    outline: 2px solid #000;
+    text-align: center;
+    color: black;
+    float: top;
+}
+
+.block4 {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    height: 100%;
+    background: white;
+    outline: 2px solid #000;
+    text-align: left;
+    color: black;
+    float: top;
+    overflow: auto;
+    padding: 10px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    left: 0;
+}
+
+.block3 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    left: 0;
+    background: blue;
+    outline: 2px solid #000;
+    text-align: center;
+    color: white;
+    float: bottom;
+}
+
+span {
+    font-family: "Courier New", monospace;
+    font-size: large;
+}
+
+h1 {
+    font-family: "Nokia Large", fantasy;
+    color: darkcyan;
+    text-shadow: 1px 1px 2px darkcyan, 0 0 1em cyan;
+}
+
+p {
+    font-family: "Edwardian Script ITC", serif;
+    font-size: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.author {
+    font-size: 2rem;
+    text-align: right;
+    padding: 0 10% 0 0;
+}
